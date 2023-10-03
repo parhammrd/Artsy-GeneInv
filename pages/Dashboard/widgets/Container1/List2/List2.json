@@ -73,7 +73,7 @@
     "hasMetaWidgets": true,
     "isLoading": false,
     "mainCanvasId": "o6spkuten3",
-    "borderRadius": "1.5rem",
+    "borderRadius": "0px",
     "additionalStaticProps": [
         "level",
         "levelData",

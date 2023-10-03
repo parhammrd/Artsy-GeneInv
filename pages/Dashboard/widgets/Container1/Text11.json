@@ -1,7 +1,7 @@
 {
     "mobileBottomRow": 50,
     "widgetName": "Text11",
-    "borderColor": "#18181b",
+    "borderColor": "#71717a",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -27,7 +27,7 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
-    "borderWidth": "0.5",
+    "borderWidth": "0.25",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Genes",
     "key": "zna2pa0tbx",

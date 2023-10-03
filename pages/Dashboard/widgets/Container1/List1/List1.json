@@ -74,7 +74,7 @@
     "hasMetaWidgets": true,
     "isLoading": false,
     "mainCanvasId": "dsllj0coxm",
-    "borderRadius": "1.5rem",
+    "borderRadius": "0px",
     "originalBottomRow": 90,
     "additionalStaticProps": [
         "level",
