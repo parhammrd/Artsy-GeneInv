@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "truncateString",
-    "fullyQualifiedName": "JSObj.truncateString",
+    "name": "gStorePag",
+    "fullyQualifiedName": "JSObj.gStorePag",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,14 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "originalString"
-        },
-        {
-          "name": "maxLength"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -43,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_JSObj.truncateString",
+  "id": "Dashboard_JSObj.gStorePag",
   "deleted": false,
-  "gitSyncId": "651a6eca6d4ce8695a34c75d_651c6d9ae8e4393119f8652f"
+  "gitSyncId": "651a6eca6d4ce8695a34c75d_651c9223e38acb0e51c40ab2"
 }

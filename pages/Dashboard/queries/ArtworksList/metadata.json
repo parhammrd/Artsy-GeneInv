@@ -25,7 +25,7 @@
       "bodyFormData": [],
       "httpMethod": "GET",
       "next": "{{ArtworksList.data._links.next.href}}",
-      "prev": "https://api.artsy.net/api/artworks",
+      "prev": "{{appsmith.store.preArtPag[List1.pageNo]}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,13 +40,17 @@
     "dynamicBindingPathList": [
       {
         "key": "next"
+      },
+      {
+        "key": "prev"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "ArtworksList.data._links.next.href"
+      "ArtworksList.data._links.next.href",
+      "appsmith.store.preArtPag[List1.pageNo]"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

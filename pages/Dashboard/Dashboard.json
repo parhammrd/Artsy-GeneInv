@@ -34,7 +34,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "ArtworksList.data._links.next.href"
+                "ArtworksList.data._links.next.href",
+                "appsmith.store.preArtPag[List1.pageNo]"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -58,6 +59,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.preGenePag[List2.pageNo]",
                 "GenesList.data._links.next.href",
                 "List1.selectedItem.id"
               ],

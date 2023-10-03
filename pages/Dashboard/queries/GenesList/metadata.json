@@ -30,7 +30,7 @@
       "bodyFormData": [],
       "httpMethod": "GET",
       "next": "{{GenesList.data._links.next.href}}",
-      "prev": "https://api.artsy.net/api/genes?artwork_id={{List1.selectedItem.id}}",
+      "prev": "{{appsmith.store.preGenePag[List2.pageNo]}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -51,6 +51,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "prev"
       }
     ],
     "isValid": true,
@@ -58,7 +61,8 @@
     "messages": [],
     "jsonPathKeys": [
       "GenesList.data._links.next.href",
-      "List1.selectedItem.id"
+      "List1.selectedItem.id",
+      "appsmith.store.preGenePag[List2.pageNo]"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
