@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Artsy Genome Inventory",
+    "text": "Artsy TAGP Inventory",
     "key": "q2ftvtzwq2",
     "isDeprecated": false,
     "rightColumn": 20,
