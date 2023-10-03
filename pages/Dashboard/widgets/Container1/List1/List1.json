@@ -111,7 +111,7 @@
     "rightColumn": 20,
     "widgetId": "yp3nmzn8pc",
     "minWidth": 450,
-    "onItemClick": "{{removeValue(\"preGenePag\");\nresetWidget(\"List2\");\nGenesInfo.clear();\nGetArtist.run({}); GenesList.run({});}}",
+    "onItemClick": "{{removeValue(\"preGenePag\");\nresetWidget(\"List2\");\nGetArtist.clear();\nGenesInfo.clear();\nGetArtist.run({}); GenesList.run({});}}",
     "parentId": "v9607owmz3",
     "renderMode": "CANVAS",
     "mobileTopRow": 103,

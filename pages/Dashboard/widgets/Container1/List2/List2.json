@@ -85,7 +85,10 @@
     "triggeredItemView": "{{{}}}",
     "widgetName": "List2",
     "listData": "{{GenesList.data._embedded.genes}}",
-    "dynamicPropertyPathList": [{"key": "onPageChange"}],
+    "dynamicPropertyPathList": [
+        {"key": "onPageChange"},
+        {"key": "onItemClick"}
+    ],
     "displayName": "List",
     "bottomRow": 92,
     "parentRowSpace": 10,
@@ -106,7 +109,7 @@
     "rightColumn": 62,
     "widgetId": "37303nz4j1",
     "minWidth": 450,
-    "onItemClick": "{{GenesInfo.run({});}}",
+    "onItemClick": "{{GenesInfo.clear();\nGenesInfo.run({});}}",
     "parentId": "v9607owmz3",
     "renderMode": "CANVAS",
     "mobileTopRow": 47,
