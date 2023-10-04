@@ -59,9 +59,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.preGenePag[List2.pageNo]",
                 "GenesList.data._links.next.href",
-                "List1.selectedItem.id",
-                "appsmith.store.preGenePag[List2.pageNo]"
+                "List1.selectedItem.id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -89,7 +89,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "651a6eca6d4ce8695a34c75d_651a6eca6d4ce8695a34c75f"

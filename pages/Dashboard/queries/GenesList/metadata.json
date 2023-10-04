@@ -50,10 +50,10 @@
         "key": "next"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "prev"
       },
       {
-        "key": "prev"
+        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,

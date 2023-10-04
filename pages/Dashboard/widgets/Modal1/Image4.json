@@ -33,7 +33,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 6,
-    "maxZoomLevel": 1,
+    "maxZoomLevel": 4,
     "enableDownload": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 23,

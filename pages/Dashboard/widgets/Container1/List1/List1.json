@@ -17,7 +17,7 @@
         {"key": "accentColor"},
         {"key": "listData"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 2,
     "serverSidePagination": true,
     "enhancements": true,
     "children": [{
@@ -108,7 +108,7 @@
     "key": "m60ql1f1ih",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 21,
     "widgetId": "yp3nmzn8pc",
     "minWidth": 450,
     "onItemClick": "{{removeValue(\"preGenePag\");\nresetWidget(\"List2\");\nGetArtist.clear();\nGenesInfo.clear();\nGetArtist.run({}); GenesList.run({});}}",
