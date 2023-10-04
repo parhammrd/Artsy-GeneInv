@@ -19,11 +19,11 @@
         {"key": "borderRadius"},
         {"key": "image"}
     ],
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://i.imgur.com/HsE0T1G.jpg",
     "key": "6rkmmwdkob",
     "image": "{{List1.selectedItem._links.image.href.replace(new RegExp('{image_version}', 'gi'), 'larger')}}",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 59,
     "objectFit": "contain",
     "widgetId": "ehvc4hzy3l",
     "isVisible": true,

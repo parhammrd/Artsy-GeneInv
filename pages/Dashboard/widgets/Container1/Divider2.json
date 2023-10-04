@@ -5,8 +5,8 @@
     "displayName": "Divider",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.3b7d47d7bd70da418a827287042cbb7f.svg",
     "searchTags": ["line"],
-    "topRow": 93,
-    "bottomRow": 97,
+    "topRow": 92,
+    "bottomRow": 96,
     "parentRowSpace": 10,
     "type": "DIVIDER_WIDGET",
     "capType": "nc",
@@ -22,7 +22,7 @@
     "orientation": "horizontal",
     "strokeStyle": "solid",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "widgetId": "d6e9bgds90",
     "capSide": 0,
     "minWidth": 450,
@@ -34,7 +34,7 @@
     "isLoading": false,
     "mobileTopRow": 93,
     "responsiveBehavior": "fill",
-    "originalTopRow": 93,
+    "originalTopRow": 92,
     "mobileLeftColumn": 10,
-    "originalBottomRow": 97
+    "originalBottomRow": 96
 }

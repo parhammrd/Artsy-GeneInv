@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 2,
-    "bottomRow": 6,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "{{GenesInfo.data.name + (GenesInfo.data.display_name ? ' (' + GenesInfo.data.display_name +')' : '')}}",
     "key": "zna2pa0tbx",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 42,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "st2yvyqyq3",
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 7,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

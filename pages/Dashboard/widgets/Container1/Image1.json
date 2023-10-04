@@ -3,7 +3,7 @@
     "mobileBottomRow": 14,
     "widgetName": "Image1",
     "onClick": "{{showModal('Modal1');}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Image",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
     "topRow": 5,
@@ -17,13 +17,10 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "imageShape": "RECTANGLE",
     "leftColumn": 21,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "image"}
-    ],
+    "dynamicBindingPathList": [{"key": "image"}],
     "defaultImage": "https://i.imgur.com/HsE0T1G.jpg",
     "key": "rukd88y9st",
-    "image": "{{List1.selectedItem._links.image.href.replace(new RegExp('{image_version}', 'gi'), 'larger')}}",
+    "image": "{{List1.selectedItem._links.image.href.replace(new RegExp('{image_version}', 'gi'), 'large')}}",
     "isDeprecated": false,
     "rightColumn": 64,
     "objectFit": "contain",
@@ -38,7 +35,7 @@
     "maxZoomLevel": 1,
     "enableDownload": false,
     "originalTopRow": 19,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
     "mobileLeftColumn": 1,
     "originalBottomRow": 63,
     "enableRotation": false
