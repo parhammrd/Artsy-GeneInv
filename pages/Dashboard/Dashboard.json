@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 86,
+          "version": 87,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -59,9 +59,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.preGenePag[List2.pageNo]",
                 "GenesList.data._links.next.href",
-                "List1.selectedItem.id"
+                "List1.selectedItem.id",
+                "appsmith.store.preGenePag[List2.pageNo]"
               ],
               "timeoutInMillisecond": 10000
             }
