@@ -3,6 +3,10 @@
     {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Artworks",
+      "isDefault": false
     }
   ],
   "viewMode": false,
