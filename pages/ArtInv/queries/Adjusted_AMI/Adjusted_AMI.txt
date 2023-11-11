@@ -1,0 +1,18 @@
+query Artworks_Category($offset: Int, $limit: Int, $category: string!) @cached {
+	Artworks(offset: $offset, limit: $limit, where: {nGenes: {_gt: 1}, category: {_eq: $category}}) {
+		_id
+		title
+		category
+		date
+		medium
+		nGenes
+		iconicity
+		artist_Oid
+		genes_Oid
+		_links {
+			image {
+				href
+			}
+		}
+	}
+}

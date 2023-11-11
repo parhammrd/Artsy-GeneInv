@@ -1,0 +1,7 @@
+query Artwork_genes($genes: [objectId!]) @cached {
+  Genome(where: {_id: {_in: $genes}}) {
+    name
+    description
+    _id
+  }
+}

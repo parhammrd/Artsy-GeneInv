@@ -1,0 +1,27 @@
+query Artwork_Info($ArtworkId: objectId!) @cached {
+	Artworks_by_pk(_id: $ArtworkId) {
+		title
+		date
+		medium
+		category
+		iconicity
+		created_at
+		updated_at
+		additional_information
+		collecting_institution
+		image_rights
+		dimensions {
+			cm {
+				text
+			}
+		}
+		_links {
+			permalink {
+				href
+			}
+			image {
+        href
+      }
+		}
+	}
+}

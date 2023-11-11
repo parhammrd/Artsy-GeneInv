@@ -1,0 +1,23 @@
+query Artists_by_ID($ArtistsId: [objectId!]) @cached {
+  Artists(where: {_id: {_in: $ArtistsId}}) {
+    _id
+    name
+		sortable_name
+    biography
+    birthday
+    created_at
+    deathday
+    gender
+    genes_Oid
+    hometown
+    location
+    nGenes
+    nationality
+    updated_at
+    _links {
+      thumbnail {
+        href
+      }
+    }
+  }
+}

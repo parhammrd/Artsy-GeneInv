@@ -1,0 +1,9 @@
+query Artworkg_Category_Counter($category: string) {
+  Artworks_aggregate(where: {nGenes: {_gt: 1}, category: {_eq: $category}}) {
+    aggregate {
+      Total_Artg: count {
+        counter
+      }
+    }
+  }
+}

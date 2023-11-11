@@ -7,6 +7,10 @@
     {
       "id": "Artworks",
       "isDefault": false
+    },
+    {
+      "id": "ArtInv",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -20,7 +24,11 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

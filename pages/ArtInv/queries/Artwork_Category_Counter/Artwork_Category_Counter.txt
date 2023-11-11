@@ -1,0 +1,9 @@
+query Artwork_Category_Counter($category: string) {
+  Artworks_aggregate(where: {category: {_eq: $category}}) {
+    aggregate {
+      Total_Art: count {
+        counter
+      }
+    }
+  }
+}

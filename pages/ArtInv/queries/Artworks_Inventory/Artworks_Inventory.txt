@@ -1,0 +1,16 @@
+query Artworks_Main_Inv($offset: Int, $limit: Int) @cached {
+  Artworks(offset: $offset, limit: $limit) {
+    _id
+    title
+    category
+    date
+    medium
+    artist_Oid
+    genes_Oid
+    _links {
+      thumbnail {
+        href
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+query Artworks_Counter {
+  Artworks_aggregate {
+    aggregate {
+      Total_Art: count {
+        counter
+      }
+    }
+  }
+}
