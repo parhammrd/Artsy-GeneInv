@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 5,
     "widgetName": "IconButton4",
-    "onClick": "{{navigateTo('ArtInv', {}, 'SAME_WINDOW');}}",
+    "onClick": "",
     "buttonColor": "#71717a",
     "dynamicPropertyPathList": [],
     "displayName": "Icon button",
