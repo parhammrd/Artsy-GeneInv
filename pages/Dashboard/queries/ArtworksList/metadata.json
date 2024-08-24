@@ -11,12 +11,7 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [
-        {
-          "key": "X-Xapp-Token",
-          "value": "{{Value.getAccessToken.data}}"
-        }
-      ],
+      "headers": [],
       "httpMethod": "GET",
       "next": "{{ArtworksList.data._links.next.href}}",
       "paginationType": "URL",
@@ -43,9 +38,6 @@
       },
       {
         "key": "prev"
-      },
-      {
-        "key": "headers[0].value"
       }
     ],
     "executeOnLoad": true,
