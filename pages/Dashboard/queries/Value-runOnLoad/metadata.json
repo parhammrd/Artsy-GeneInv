@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "651a6eca6d4ce8695a34c75d_493f6d4e-8aeb-4707-83f4-75212f75fa2c",
-  "id": "Dashboard_Value.getAccessToken",
+  "gitSyncId": "651a6eca6d4ce8695a34c75d_320616c0-9c33-4182-8982-7b1be5ff1e43",
+  "id": "Dashboard_Value.runOnLoad",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,9 +22,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "fullyQualifiedName": "Value.getAccessToken",
-    "name": "getAccessToken",
+    "executeOnLoad": false,
+    "fullyQualifiedName": "Value.runOnLoad",
+    "name": "runOnLoad",
     "pageId": "Dashboard",
     "userSetOnLoad": false
   }
