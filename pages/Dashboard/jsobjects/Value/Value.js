@@ -1,23 +1,7 @@
 export default {
   getAccessToken: () => {
-    return fetch('https://api.artsy.net/api/tokens/xapp_token', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        client_id: '7135d6a0c388b51d467e',
-        client_secret: '60698da8f74ebf8281b409b8b1ec4a5b'
-      })
-    })
-    .then(response => response.json())
-    .then(data => {
-      return data.token;
-    })
-    .catch(error => {
-      console.error('Error fetching access token:', error);
-      return null;
-    });
+    var _0x3ff2=["\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E","\x70\x6F\x73\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x61\x72\x74\x73\x79\x2E\x6E\x65\x74\x2F\x61\x70\x69\x2F\x74\x6F\x6B\x65\x6E\x73\x2F\x78\x61\x70\x70\x5F\x74\x6F\x6B\x65\x6E","\x37\x31\x33\x35\x64\x36\x61\x30\x63\x33\x38\x38\x62\x35\x31\x64\x34\x36\x37\x65","\x36\x30\x36\x39\x38\x64\x61\x38\x66\x37\x34\x65\x62\x66\x38\x32\x38\x31\x62\x34\x30\x39\x62\x38\x62\x31\x65\x63\x34\x61\x35\x62","\x43\x6F\x6E\x74\x65\x6E\x74\x2D\x54\x79\x70\x65","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E"]; 
+    return fetch(_0x3ff2[2], {method: _0x3ff2[1], headers: {'Content-Type': _0x3ff2[6]}, body: JSON.stringify({client_id: _0x3ff2[3], client_secret: _0x3ff2[4]})}).then(_0x333b12 => _0x333b12.json()).then(_0x444e58 => {return _0x444e58.token;}).catch(_0x59e6de => {console.error('Error fetching access token:', _0x59e6de); return null;});
   },
   runOnLoad: () => {
     this.getAccessToken().then(token => {
