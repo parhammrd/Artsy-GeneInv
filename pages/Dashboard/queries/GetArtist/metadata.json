@@ -11,7 +11,12 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "X-Xapp-Token",
+          "value": "{{Value.getAccessToken.data}}"
+        }
+      ],
       "httpMethod": "GET",
       "paginationType": "NONE",
       "path": "/artists",
@@ -38,6 +43,9 @@
     "dynamicBindingPathList": [
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "headers[0].value"
       }
     ],
     "executeOnLoad": true,

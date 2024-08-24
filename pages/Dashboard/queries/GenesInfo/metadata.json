@@ -11,7 +11,12 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "X-Xapp-Token",
+          "value": "{{Value.getAccessToken.data}}"
+        }
+      ],
       "httpMethod": "GET",
       "paginationType": "NONE",
       "path": "/genes/{{List2.selectedItem.id}}",
@@ -33,6 +38,9 @@
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "headers[0].value"
       }
     ],
     "executeOnLoad": true,
