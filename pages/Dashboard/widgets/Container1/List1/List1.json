@@ -120,7 +120,7 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 103,
   "onItemClick": "{{removeValue(\"preGenePag\");\nresetWidget(\"List2\");\nGetArtist.clear();\nGenesInfo.clear();\nGetArtist.run({}); GenesList.run({})}}",
-  "onPageChange": "{{JSObj.aStorePag();\nArtworksList.run({});\nValue.runOnLoad();}}",
+  "onPageChange": "{{JSObj.aStorePag();\nValue.runOnLoad();\nArtworksList.run({});}}",
   "originalBottomRow": 92,
   "originalTopRow": 5,
   "pageSize": 5,
