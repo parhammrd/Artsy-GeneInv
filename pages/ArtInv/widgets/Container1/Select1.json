@@ -1,63 +1,77 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Category",
-    "topRow": 4,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "Painting",
-    "animateLoading": true,
-    "leftColumn": 14,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileBottomRow": 55,
-    "widgetName": "Select1",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 25,
-    "parentColumnSpace": 17.3447265625,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Top",
-    "sourceData": "[{\n  \"name\": \"Painting\",\n  \"code\": \"Painting\"\n},\n{\n  \"name\": \"Sculpture\",\n  \"code\": \"Sculpture\"\n},\n{\n  \"name\": \"Photography\",\n  \"code\": \"Photography\"\n},\n{\n  \"name\": \"Print\",\n  \"code\": \"Print\"\n},\n{\n  \"name\": \"Drawing, Collage or other Work on Paper\",\n  \"code\": \"Drawing, Collage or other Work on Paper\"\n},\n{\n  \"name\": \"Mixed Media\",\n  \"code\": \"Mixed Media\"\n},\n{\n  \"name\": \"Books and Portfolios\",\n  \"code\": \"Books and Portfolios\"\n},\n{\n  \"name\": \"Architecture\",\n  \"code\": \"Architecture\"\n},\n{\n  \"name\": \"Textile Arts\",\n  \"code\": \"Textile Arts\"\n},\n{\n  \"name\": \"Fashion Design and Wearable Art\",\n  \"code\": \"Fashion Design and Wearable Art\"\n},\n{\n  \"name\": \"Design/Decorative Art\",\n  \"code\": \"Design/Decorative Art\"\n},\n{\n  \"name\": \"Posters\",\n  \"code\": \"Posters\"\n},\n{\n  \"name\": \"Jewelry\",\n  \"code\": \"Jewelry\"\n},\n{\n  \"name\": \"Unknown\",\n  \"code\": \"\"\n},\n{\n  \"name\": \"Other\",\n  \"code\": \"Other\"\n}]",
-    "key": "3prwcsipcp",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 34,
-    "widgetId": "5jcc9buhll",
-    "optionValue": "code",
-    "minWidth": 450,
-    "parentId": "vxllvxd04g",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 48,
-    "optionLabel": "name",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 5,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{Adjusted_AMI.run(); Artwork_Category_Counter.run(); Artworkg_Category_Counter.run();\nArtworks_counter.run()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "defaultOptionValue": "Painting",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3prwcsipcp",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Category",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 48,
+  "onOptionChange": "{{Adjusted_AMI.run(); Artwork_Category_Counter.run(); Artworkg_Category_Counter.run();\nArtworks_counter.run()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 17.3447265625,
+  "parentId": "vxllvxd04g",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[{\n  \"name\": \"Painting\",\n  \"code\": \"Painting\"\n},\n{\n  \"name\": \"Sculpture\",\n  \"code\": \"Sculpture\"\n},\n{\n  \"name\": \"Photography\",\n  \"code\": \"Photography\"\n},\n{\n  \"name\": \"Print\",\n  \"code\": \"Print\"\n},\n{\n  \"name\": \"Drawing, Collage or other Work on Paper\",\n  \"code\": \"Drawing, Collage or other Work on Paper\"\n},\n{\n  \"name\": \"Mixed Media\",\n  \"code\": \"Mixed Media\"\n},\n{\n  \"name\": \"Books and Portfolios\",\n  \"code\": \"Books and Portfolios\"\n},\n{\n  \"name\": \"Architecture\",\n  \"code\": \"Architecture\"\n},\n{\n  \"name\": \"Textile Arts\",\n  \"code\": \"Textile Arts\"\n},\n{\n  \"name\": \"Fashion Design and Wearable Art\",\n  \"code\": \"Fashion Design and Wearable Art\"\n},\n{\n  \"name\": \"Design/Decorative Art\",\n  \"code\": \"Design/Decorative Art\"\n},\n{\n  \"name\": \"Posters\",\n  \"code\": \"Posters\"\n},\n{\n  \"name\": \"Jewelry\",\n  \"code\": \"Jewelry\"\n},\n{\n  \"name\": \"Unknown\",\n  \"code\": \"\"\n},\n{\n  \"name\": \"Other\",\n  \"code\": \"Other\"\n}]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5jcc9buhll",
+  "widgetName": "Select1"
 }

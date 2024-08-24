@@ -1,80 +1,33 @@
 {
+  "gitSyncId": "651a6eca6d4ce8695a34c75d_652ed83ea1162d0bd6fa63ce",
   "unpublishedPage": {
-    "name": "Artworks",
-    "slug": "artworks",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1174,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 880,
-          "containerStyle": "none",
-          "snapRows": 125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
           "minHeight": 900,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Artworks_FindQuery",
-              "name": "FindQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "data_table.sortOrder.column || '_id'",
-                "key_select.selectedOptionValue",
-                "data_table.pageSize",
-                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
-                "data_table.searchText||\"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize",
-                "order_select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Artworks_Art_genes",
-              "name": "Art_genes",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(Table1.pageNo - 1) * Table1.pageSize",
-                "Table1.pageSize",
-                "data_table.selectedRow._id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "mongoEscapedWidgetNames": [
-          "data_table"
-        ],
-        "validOnPageLoadActions": true,
-        "id": "Artworks",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1174,
+          "snapColumns": 64,
+          "snapRows": 125,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "651a6eca6d4ce8695a34c75d_652ed83ea1162d0bd6fa63ce"
+    "name": "Artworks",
+    "slug": "artworks"
+  }
 }
