@@ -3,13 +3,6 @@
   "appLayout": {
     "type": "DESKTOP"
   },
-  "applicationDetail": {
-    "themeSetting": {
-      "appMaxWidth": "LARGE",
-      "density": 1.0,
-      "sizing": 1.0
-    }
-  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#C2DAF0",
@@ -36,12 +29,5 @@
   ],
   "unpublishedAppLayout": {
     "type": "DESKTOP"
-  },
-  "unpublishedApplicationDetail": {
-    "themeSetting": {
-      "appMaxWidth": "LARGE",
-      "density": 1.0,
-      "sizing": 1.0
-    }
   }
 }
