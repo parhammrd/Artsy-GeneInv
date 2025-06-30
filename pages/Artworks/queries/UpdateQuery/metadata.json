@@ -107,9 +107,9 @@
       "name": "Mongo Liara",
       "pluginId": "mongo-plugin"
     },
-    "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Artworks",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -46,9 +46,9 @@
       "name": "Mongo Liara",
       "pluginId": "mongo-plugin"
     },
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Artworks",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

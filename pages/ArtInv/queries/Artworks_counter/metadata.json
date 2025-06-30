@@ -41,9 +41,9 @@
       "pluginId": "graphql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
     "name": "Artworks_counter",
     "pageId": "ArtInv",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

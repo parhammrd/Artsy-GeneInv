@@ -44,9 +44,9 @@
         "key": "pluginSpecifiedTemplates[1].value"
       }
     ],
-    "executeOnLoad": true,
     "name": "Artists_by_ID",
     "pageId": "ArtInv",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

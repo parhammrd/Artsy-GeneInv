@@ -45,9 +45,9 @@
         "key": "pluginSpecifiedTemplates[1].value"
       }
     ],
-    "executeOnLoad": true,
     "name": "Artworkg_Category_Counter",
     "pageId": "ArtInv",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

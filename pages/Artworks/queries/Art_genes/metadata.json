@@ -106,9 +106,9 @@
         "key": "formData.find.skip.data"
       }
     ],
-    "executeOnLoad": true,
     "name": "Art_genes",
     "pageId": "Artworks",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

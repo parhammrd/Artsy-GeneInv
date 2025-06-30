@@ -114,9 +114,9 @@
         "key": "formData.find.sort.data"
       }
     ],
-    "executeOnLoad": true,
     "name": "FindQuery",
     "pageId": "Artworks",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

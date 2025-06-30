@@ -46,9 +46,9 @@
         "key": "pluginSpecifiedTemplates[1].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "Artworks_Inventory",
     "pageId": "ArtInv",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
